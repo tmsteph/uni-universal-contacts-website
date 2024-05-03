@@ -2,42 +2,41 @@
   text-align: center;
   color: white;
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;  /* Aligns content to the top */
+  min-height: 100vh;
   font-size: calc(10px + 2vmin);
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;  /* Adjust size as needed */
   pointer-events: none;
-  margin-bottom: 20px;
+  margin-top: 20px;  /* Adds space at the top */
+  margin-bottom: 20px;  /* Adds space below the logo */
 }
 
 .App-header {
   background-color: #20232a;
-  padding: 20px;
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.Features, .Testimonials {
-  margin: 20px auto; /* Centering the sections */
-  padding: 20px;
-  border-radius: 10px;
+.Features {
+  
   background-color: #20232a;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  width: 80%; /* Ensuring both sections have the same width */
-  max-width: 600px; /* Optional: Prevents sections from becoming too wide on larger screens */
+  width: 100%;
+  
 }
 
 ul {
-  padding-left: 0; /* Removes padding from the list */
-  list-style: none; /* Removes bullets from the list */
+  padding-left: 0;
+  list-style: none;
 }
 
 li {
-  margin-bottom: 10px; /* Adds space between list items */
+  margin-bottom: 10px;
 }
+
